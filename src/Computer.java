@@ -15,27 +15,27 @@ public class Computer implements ComputerOperations {
 	}
 	
 	public void turnOn() {
-		System.out.println(getClassName() + "is now turned on!");
+		System.out.println(getClassName() + " is now turned on!");
 	}
 
 	public void turnOff() {
-		System.out.println(getClassName() + "is now turned off!");
+		System.out.println(getClassName() + " is now turned off!");
 	}
 
 	public void performDownload() {
-		System.out.println(getClassName() + "is now downloading a file!");
+		System.out.println(getClassName() + " is now downloading a file!");
 	}
 
 	public void performUpload() {
-		System.out.println(getClassName() + "is now uploading a file!");
+		System.out.println(getClassName() + " is now uploading a file!");
 	}
 
 	public void playVideo() {
-		System.out.println(getClassName() + "is now playing a video!");
+		System.out.println(getClassName() + " is now playing a video!");
 	}
 
 	public void playMusic() {
-		System.out.println(getClassName() + "is now playing music!");
+		System.out.println(getClassName() + " is now playing music!");
 	}
 
 }
